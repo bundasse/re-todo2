@@ -1,10 +1,11 @@
 import React from 'react'
+import './Todolist.css';
 
 const Todolist = () => {
   return (
     <div>
         <h4>Todo List</h4>
-        <input type='text' className='searchBox' placeholder='검색어를 입력하세요' />
+        <input type='text' className='searchBar' placeholder='검색어를 입력하세요' />
         <ul>
             <li>
                 <input type='checkbox' />
