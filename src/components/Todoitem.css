@@ -1,0 +1,22 @@
+.TodoItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.TodoItem .titleCol{
+    flex-basis: 80%;
+}
+.TodoItem .dateCol{
+    font-size: 14px;
+    color:gray;
+}
+.TodoItem .btnCol{
+    cursor: pointer;
+    color:gray;
+    font-size: 14px;
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+}

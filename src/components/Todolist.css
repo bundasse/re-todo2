@@ -10,3 +10,10 @@
     outline: none;
     border-bottom: 1px solid #1f93ff;
 }
+ul{
+    list-style: none;
+}
+ul, li{
+    margin:0;
+    padding: 0;
+}
